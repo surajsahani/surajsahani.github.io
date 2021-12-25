@@ -1,0 +1,165 @@
+{
+  "experiences": [
+    {
+      "name": "Android Nanodegree",
+      "link": "android-nanodegree",
+      "location": "Remote",
+      "weight": 2,
+      "tags": [
+        "udacity",
+        "android"
+      ],
+      "date": "Jan - Nov 2016",
+      "short": "Udacity's Nanodegree in Android.",
+      "photos": [
+        "/static/experiences/android-nanodegree/android-nanodegree.jpg"
+      ]
+    },
+    {
+      "name": "Month-long Travel '18",
+      "link": "travel-18",
+      "location": "Bhutan, Auli, Rishikesh",
+      "weight": 3,
+      "tags": [
+        "travel",
+        "skiing"
+      ],
+      "date": "Feb 2018",
+      "short": "A took a month off of work to ski and travel North India and Bhutan.",
+      "photos": [
+        "/static/experiences/travel-18/img-3.jpg",
+        "/static/experiences/travel-18/img-4.jpg",
+        "/static/experiences/travel-18/img-5.jpg",
+        "/static/experiences/travel-18/img-1.jpg",
+        "/static/experiences/travel-18/img-2.jpg",
+        "/static/experiences/travel-18/img-6.jpg"
+      ],
+      "videos": [
+        "<iframe width=\"864\" height=\"486\" src=\"https://www.youtube.com/embed/srKZjUyTiKg\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+      ]
+    },
+    {
+      "name": "Hill Hacks '16",
+      "link": "hillhacks-16",
+      "location": "Dharamshala, India",
+      "weight": 3,
+      "tags": [
+        "travel",
+        "maker-space"
+      ],
+      "date": "May 2016",
+      "short": "Lodged at a maker space in Dharamshala for 2 weeks.",
+      "photos": [
+        "/static/experiences/hillhacks-16/hillhacks-16-1.jpg",
+        "/static/experiences/hillhacks-16/hillhacks-16-2.jpg",
+        "/static/experiences/hillhacks-16/hillhacks-16-3.jpg",
+        "/static/experiences/hillhacks-16/hillhacks-16-4.jpg"
+      ]
+    },
+    {
+      "name": "Kumbhathon",
+      "link": "kumbhathon",
+      "location": "Kumbhmela, Maharashtra, India",
+      "weight": 1,
+      "tags": [
+        "mit-media-lab",
+        "volunteer",
+        "data"
+      ],
+      "date": "Aug 2015",
+      "short": "A 10 day volunteer to bring technology to the Kumbhmela. We visualized changes in population movement on heatmaps, using telecom data.",
+      "photos": [
+        "/static/experiences/kumbhathon/kumbhathon.jpg"
+      ]
+    },
+    {
+      "name": "Teaching Volunteer",
+      "link": "rural-intern",
+      "location": "Himachal, India",
+      "weight": 1,
+      "tags": [
+        "volunteer",
+        "teaching"
+      ],
+      "date": "Dec 2014",
+      "short": "Spent a month at Sandhol, a small village in Himachal as a part of my college's rural internship program where we taught students of grades 2-6 Math and English.",
+      "photos": [
+        "/static/experiences/rural-intern/img-2.jpg",
+        "/static/experiences/rural-intern/img-1.jpg"
+      ]
+    },
+    {
+      "name": "Graviky Labs",
+      "link": "graviky-labs",
+      "weight": 3,
+      "location": "Bangalore, India",
+      "date": "Dec 2015",
+      "tags": [
+        "mit-media-lab",
+        "maker-space"
+      ],
+      "short": "Spent 3 weeks with Anirudh Sharma tinkering around in his lab working on several different things.",
+      "photos": [
+        "/static/experiences/graviky-labs/img-1.jpg",
+        "/static/experiences/graviky-labs/img-2.jpg"
+      ]
+    },
+    {
+      "name": "Tesseract Imaging",
+      "link": "tesseract",
+      "location": "Mumbai, India",
+      "weight": 4,
+      "tags": [
+        "mit-media-lab",
+        "camera"
+      ],
+      "date": "May 2015",
+      "short": "Worked at Tesseract, an MIT Media Lab spinoff where I co-developed an Android application to capture and view 360 degree image+video with the hardware built there.",
+      "videos": [
+        "<iframe width=\"1351\" height=\"533\" src=\"https://www.youtube.com/embed/OmDS-FdotNU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+      ],
+      "photos": [
+        "/static/experiences/tesseract/img-1.jpg"
+      ]
+    },
+    {
+      "name": "Tonbo Imaging",
+      "link": "tonbo-imaging",
+      "weight": 5,
+      "location": "Bangalore, India",
+      "tags": [
+        "camera",
+	"android"
+      ],
+      "date": "Dec 2016 - Nov 2019",
+      "short": "Worked at Tonbo Imaging, a camera company. My work here is to bring up the Qualcomm Snapdragon platform at the application layer, creating a base for camera-client communication, the client SDK and camera FDK, a base for vision problems, streaming, and fast image operations such as false coloring and video stabilization.",
+      "videos": [
+        "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/kjc0uVtK7ss\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+        "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/1RqiamkcpUc\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+      ],
+      "photos": [
+        "/static/experiences/tonbo-imaging/img-1.jpg",
+        "/static/experiences/tonbo-imaging/img-2.jpg",
+        "/static/experiences/tonbo-imaging/img-3.jpg",
+        "/static/experiences/tonbo-imaging/img-4.jpg",
+        "/static/experiences/tonbo-imaging/img-5.jpg",
+        "/static/experiences/tonbo-imaging/img-6.jpg"
+      ]
+    },
+    {
+      "name": "Google Munich",
+      "link": "google-munich",
+      "weight": 6,
+      "location": "Munich, Germany",
+      "tags": [
+        "android",
+	"google"
+      ],
+      "date": "Nov 2019 - Present",
+      "short": "Working at Google in the Android Platforms and Ecosystems team. Exciting times!",
+      "photos": [
+        "/static/experiences/google-munich/img-1.png"
+      ]
+    }
+  ]
+}

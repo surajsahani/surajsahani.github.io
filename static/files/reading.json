@@ -1,0 +1,197 @@
+[
+  {
+    "year": "To Read (Ordered)",
+    "books": [
+      {
+        "name": "Stories of Your Life and Others, Ted Chiang"
+      },
+      {
+        "name": "Books by Nassim Nicholas Taleb",
+        "review": "I've resisted reading his work for longer than I can remember. But now I really want to know why the world thinks so highly of his rather complicated and hard to read writing."
+      },
+      {
+        "name": "Show Your Work!, Austin Kleon"
+      },
+      {
+        "name": "Invisible Women, Caroline Criado-Perez"
+      },
+      {
+        "name": "Recursion, Blake Crouch"
+      },
+      {
+        "name": "No Rules Rules (Netflix), Erin Meyer and Reed Hastings"
+      },
+      {
+        "name": "Ride of a Lifetime (Disney), Robert Iger"
+      },
+      {
+        "name": "Factfulness, Anna Rosling Rönnlund, Hans Rosling, and Ola Rosling"
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "books": [
+      {
+        "name": "The Psychology of Money, Morgan Housel",
+        "review": "An excellent introduction on *How to Money*. The ideas presented make so much sense to me; a logical thinker who tries to model the world with reason. There were however many chapters where I realised how this book was primarily targeted for the average American, and my Indian upbringing made several chapters trivial or just obvious. I wish this was taught as a part of our school curriculum, and I hope to keep coming back to the notes I made for this book.",
+        "star": true
+      },
+      {
+        "name": "The Anthropocene Reviewed, John Green",
+        "review": "This is a book you read in John's voice. Every sentence sounds so much like him! I enjoyed reading it, but a few chapters through I realized this is much more of a podcast-y listen-to-one-story-a-night kind of book that gives you something to think about, than one you rush through overloading yourself with new ideas and not having enough time to let your brain process each one. It's a collection of thoughtful bed time stories for adults with child like curiosity and wonder, and for that reason I give this book 5 stars."
+      },
+      {
+        "name": "Normal People, Sally Rooney",
+        "review": "I loved this book, especially for the characters; I think I'm at the age where I enjoy books on relationships with others and themselves. And that's what this book is about. Where people are just different, sometimes weird, but they're themselves, and you love them anyway. I painted a picture of each character, even different than described, and associated each with a person I know in my life. It reminded me of my friends. It reminded me of a relationship I've never had. It reminded of me and my friend that in a parallel universe might have had their story play out like this.",
+        "star": true
+      },
+      {
+        "name": "Ikigai, Francesc Miralles and Hector Garcia",
+        "review": "This book is the perfect example people from the West trying to retrofit their ideas in an Eastern setting. The basis of this book is that you must find your Ikigai; that one thing that brings meaning to your life; that act that keeps you happily busy for the rest of your life, your ikigai. Now, as nice as that sounds, doesn't it remind you of the West's *find your passion* motivation? This precisely is my problem with this book; they missed the whole point of what Ikigai might actually mean. I'll go into some depth of what this book should've been about in a blog post later. Overall though, I liked how the book wasn't full of fluff."
+      },
+      {
+        "name": "Founders at Work, Jessica Livingston [incomplete, 30%]",
+        "review": "A collection of interviews with 30 start-up founders. The common theme I see here is: 1) each founder was highly driven to just *do something* - it didn't matter what specifically, because every final product started off as something else and evolved into itself. 2) The Internet boom was all about bringing the real world into the digital web - mails became e-mails, magazine columns became blogs, shopping became e-commerce - and those companies that were early won. I picked this book from a reading list I found on HackerNews, and I've enjoyed it. Again, more of a bed time story for an entrepreneurial adult."
+      },
+      {
+        "name": "New Thinking, Dagogo Altraide (Cold Fusion) [unfinished, 60%]",
+        "review": "I read half of this book 4 months ago, and I absolutely loved it. However, I don't remember most of the stories in the book, and I wish I did, because they were all very interesting, but apart from making me feel great, and truly understanding that it takes solid hard work, luck, and the right time in history to invent something novel and useful, I don't remember many details. Making notes on things that strike a chord is the only way to make this a useful read. Otherwise, at this point, all I remember is it making me feel good after having read it.",
+        "star": true
+      },
+      {
+        "name": "Modern Romance, Aziz Ansari [unfinished, 50%]",
+        "review": "I truly enjoyed this book as a way to pass time, but not at all from the perspective of learning something from. As a person who has lived his life in two worlds; the world of an Indian upbringing living in a foreign land, I really resonated with how he puts across the contrast between the two in terms of relationships and dating. However, as with most books, there are maybe 5 core ideas here, and they're excellent. The rest is extra fluff from different angles to drive those core ideas and fill up 300 pages. Another book I feel that would've made for a much, much better 3 hour podcast, especially in his voice."
+      },
+      {
+        "name": "Never Split The Difference, Chris Voss [unfinished, 40%]",
+        "review": "Read 20% of it, and realized it is just another self help book that I can read to feel like I'm reading something smart, but until I don't actually apply anything in real life, it's as good as reading fiction. Something I really wish these books did was quiz you / give you situations to act out in, so you can learn to really see what you would do vs what the author is suggesting. Something of the sort of a school textbook with quizzes at the end of each chapter. I will try to finish it because it is a short book, but I find it hard to make it a useful read."
+      },
+      {
+        "name": "Guards! Guards!, Terry Pratchett [unfinished, 30%]",
+        "review": "This is my brother's recommendation, and 10% of the way through, I have no idea what's going on. Still, I'll try to finish it.\nUpdate: 30% through, I'm really trying to like this book, but it just keeps switching plots randomly, making things hard to follow."
+      },
+      {
+        "name": "A Little History of Religion, Richard Holloway [unfinished, 50%]",
+        "review": "I started this book last year and I've read through half of the book - but I've realized for me to get anything useful out of this book, I really have to make some notes post each chapter. Else it's like reading a fiction book where you know the overall plot but you tend to forget the major details.\nSomething that really struck me is how hard it is to remove your biases, and to write from a neutral lens. For example, while speaking about a religion that has nothing to do with the Greek language, he often praises Greek, and describes the origin of an English word equating it back to the great Greeks - something that dilutes the importance of the actual religion being spoken about, almost placing the Greeks on top.",
+        "star": true
+      },
+      {
+        "name": "Naked Money, Charles Wheelan [unfinished, 15%]",
+        "review": "Again similar to other non fiction books, for me to get anything useful out of this, I think I should make notes while I read through it. I might pick this up again."
+      },
+      {
+        "name": "Dark Matter, Blake Crouch",
+        "review": "If in another universe, there was a person who had lived through the exact life I am living today, except with a stronger urge to write a book, this would be the book that version of me wrote. It has all the elements of topics & interests I gravitate towards, am fond of, or have people around me speak about.\nIt has Black Mirror vibes, plotted similar to the movie Source Code, with philosophical questions we love asking ourselves about the paths not taken & big decisions that might have changed the course of our lives.\nFunnily enough, it also reminded me of a book series I loved as a child - The Magic Treehouse, which I thought was a hilarious parallel. All in all, I loved the concept, the hook, and the first half was especially fun to read - the end however was much like 'reading a Hollywood movie'.",
+        "star": true
+      },
+      {
+        "name": "Shoe Dog (Nike), Phil Knight",
+        "review": "Imagine you're sitting by a bonfire, and your grandfather tells you his life's story of how he started Nike, the biggest sports brand in the world - all the hurdles thrown your way in starting a business, the balancing act of having a personal life and of getting married and having children, and figuring out the man he wanted to be through the whole process. I really enjoyed it because it read like a fiction book - based entirely on one man's recollection of his life events. And that's where I'd like to underscore the thing that stood out the most to me - much like a fiction book, the author is always _right_, because it is his story and he is the protagonist - given no matter what hardship, he comes out on top victorious. However, there are parts in the book where he says he hasn't done anything wrong/illegal, and yet you feel he isn't painting the entire picture. All in all though, this was a great motivational read!",
+        "star": true
+      },
+      {
+        "name": "The Clockwork Man, E.V. Odle [audiobook]",
+        "review": "Written in the 1920s when humans did not have the slightest clue of the upcoming digital age, this was the first appearance of a cyborg in literature. What I loved is how one of the most advanced pieces of technology we had in that day was the mechanical clock; and that's as far as the mind's imagination could go - the clockwork man is a cyborg who functions on advanced mechanical machinery, and the key to his functioning is a complicated clock at the back of its head (!!). The book feels like a lifetime compilation of the author's take on the various aspects of life, science and speculation of the future; the book has references to the greatness of Einstein, the understanding of time, the dimensions, love, emotions, relationships, scepticism, and belief. I loved it, and will definitely read this again as a book.",
+        "star": true
+      },
+      {
+        "name": "The Old Man and the Sea, Ernest Hemingway",
+        "review": "Remove all pleasures from life, and whatever happens will feel significant; deprive yourself of your favorite food, and the next time you eat it will feel like the best meal you've ever had. I enjoyed this book for the very reason that not a lot happens; it really is just about an old man and a large fish; the everyday thoughts one has captured just as one would think them, the loneliness of life, the comradery of ones own company, the relationships we build inside our heads with things both conscious and inanimate.",
+        "star": true
+      }
+    ]
+  },
+  {
+    "year": "2020",
+    "books": [
+      {
+        "name": "What Does It All Mean, Thomas Nagel",
+        "review": "This is the first book I've read in philosophy, and there will be many, many more for sure. This is a quick 100 page simple introduction of the questions philosophy asks - things I've been thinking about all my life. I liked the content and the ideas, many of which I have thought about before, but the way it was written didn't make it a fun read. Long, non-concise, overly-questiony sentences.",
+        "star": false
+      },
+      {
+        "name": "The Making of Prince of Persia, Jordan Mechner",
+        "review": "25 year old developer who goes through the everyday struggles of life while maintaining a diary. I haven't ever connected to an author as much as I connected with Jordan. He has exactly the same mid 20s questions, the same career-life-relationships worries, the what ifs, and the where am I going, whilst also knowing that he's really doing a fairly good job at life.",
+        "star": true
+      },
+      {
+        "name": "When Google Met Wikileaks, Julian Assange",
+        "review": "I wanted to read this book to know what hides behind Google's bright colorful logo, and this was good insight into it. I don't think it is a good idea commenting on this further though."
+      },
+      {
+        "name": "The Sun Is Also A Star, Nicola Yoon",
+        "review": "This was the first love story I've ever read, and I loved it. It's a book about perspectives, and what I loved was how the same scene plays differently in two people's heads. This book has a counterpart movie, and it was the first time I've read the book before watching the movie, and I have to say, the movie was awful. It lost everything that made the book special.",
+        "star": true
+      },
+      {
+        "name": "Ready Player One, Ernest Cline",
+        "review": "Favorite book of all time. It's the first 500+ page book I've ever read non stop for 12 hours straight. I couldn't put it down! What makes it interesting is, Ready Player One is also a movie (Steven Spielberg!) and this is also the first time I consumed the same content in different formats.",
+        "star": true
+      },
+      {
+        "name": "Miss peregrine's home for peculiar children, Ransom Riggs [audiobook]",
+        "review": "Harry Potter-esq book in an alternate universe. It took me all weekend to get through the 9 hours, but this was the first time I sat through an audiobook, and I quite enjoyed the imagination it puts one through."
+      },
+      {
+        "name": "How to Win Friends and Influence People, Dale Carnegie",
+        "review": "This was an okay read. I was brought up with all the insights the books provides as everyday discussions by my mother and father, and reading this just further strengthened them. It is a book that needs a re-read every now and then to remind you that the world is a fairly selfish place, and everyone is optimizing for themselves."
+      },
+      {
+        "name": "Nineteen Eighty-Four, George Orwell",
+        "review": "Great book. A really, really great book! I completely understand Reddit's hype around this book."
+      },
+      {
+        "name": "Models, Mark Manson",
+        "review": "Really, I have no shame in saying I read this - it's a book about picking up girls. The advice in the book is not bad per se - it advocates working on yourself, your body, your wardrobe, your knowledge. But the idea of *getting* girls was still a major part of the book that really made me realize how cheap that sounds. I've never had such relationships before. They've always been built on months of getting to know each other and that's what I value."
+      },
+      {
+        "name": "Hitchhiker's Guide To The Galaxy, Douglas Adams",
+        "review": "The entire book, all I kept thinking was 'What amazing wit!'. I wish to be able to write and speak in the voice of Douglas Adams some day. His writing is witty and hilarious, but also a very, very simple read."
+      },
+      {
+        "name": "Einstein's Dreams, Alan Lightman",
+        "review": "A brilliant dramatic, almost romantic take on the various forms of time. It makes you think of how different the world would be if we perceived time differently. This book isn't for everyone. Everyone I've recommended this book to has disliked it, or found it hard to read.",
+        "star": true
+      }
+    ]
+  },
+  {
+    "year": "Past Favorites",
+    "books": [
+      {
+        "name": "Siddhartha, Herman Hesse",
+        "review": "",
+        "star": true
+      },
+      {
+        "name": "Atomic Habits, James Clear",
+        "review": "",
+        "star": true
+      },
+      {
+        "name": "Deep Work, Cal Newport",
+        "review": "",
+        "star": true
+      },
+      {
+        "name": "Sapiens, Yuval Noah Harari",
+        "review": "",
+        "star": true
+      }
+    ]
+  },
+  {
+    "year": "Backlog: Books in my radar but I might skip",
+    "books": [
+      {
+        "name": "The Tell Tale Brain, V. S. Ramachandran",
+        "review": "I've wanted to read this since my internship with an MIT Media Lab in 2015. Never got around to it."
+      },
+      {
+        "name": "Aristotle and Dante Discover the Secrets of the Universe, Benjamin Alire Sáenz",
+        "review": "Sounds looks a fun young adult book and an easy read. Maybe during some vacation."
+      }
+    ]
+  }
+]
