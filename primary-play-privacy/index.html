@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Primary Play: Color & Learn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #0b1120 0%, #1e1b4b 40%, #0f172a 100%);
+            --card-bg: rgba(30, 41, 59, 0.75);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-primary: #bc000a;
+            --accent-yellow: #fecb00;
+            --accent-blue: #0070eb;
+            --accent-green: #22c55e;
+            --accent-glow: rgba(188, 0, 10, 0.25);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            min-height: 100vh;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(254, 203, 0, 0.15);
+            border: 1px solid rgba(254, 203, 0, 0.3);
+            color: var(--accent-yellow);
+            padding: 8px 18px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.75rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+            background: linear-gradient(to right, #ffffff, #ffb4aa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .app-name {
+            color: var(--accent-yellow);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        .last-updated {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .icon-box {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .icon-red { color: #ff6b6b; background: rgba(188, 0, 10, 0.2); }
+        .icon-yellow { color: #fecb00; background: rgba(254, 203, 0, 0.2); }
+        .icon-blue { color: #38bdf8; background: rgba(0, 112, 235, 0.2); }
+        .icon-green { color: #4ade80; background: rgba(34, 197, 94, 0.2); }
+        .icon-purple { color: #c084fc; background: rgba(168, 85, 247, 0.2); }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 10px;
+            color: var(--text-muted);
+        }
+
+        li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-green);
+            font-weight: bold;
+        }
+
+        .highlight-box {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.25);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-top: 14px;
+        }
+
+        .highlight-box p {
+            color: #86efac;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-yellow);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 { font-size: 2.1rem; }
+            .card { padding: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="badge">
+                <span class="material-symbols-outlined" style="font-size: 18px;">verified_user</span>
+                Google Play Families Policy & COPPA Compliant
+            </div>
+            <h1>Privacy Policy</h1>
+            <div class="app-name">Primary Play: Color & Learn</div>
+            <div class="last-updated">Last Updated: September 4, 2026</div>
+        </header>
+
+        <main>
+            <!-- Card 1: Overview & Child Safety -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-box icon-red">
+                        <span class="material-symbols-outlined">child_care</span>
+                    </div>
+                    <h2>1. Target Audience & Child Safety</h2>
+                </div>
+                <p><strong>Primary Play: Color & Learn</strong> is dedicated to providing a joyful, creative, and 100% safe coloring environment designed specifically for toddlers and young children (ages 3–8).</p>
+                <ul>
+                    <li>No account creation, sign-ins, or passwords are ever required.</li>
+                    <li>No personal information (names, emails, phone numbers) is requested or stored.</li>
+                    <li>No social media integrations, chat functions, or public interactions.</li>
+                    <li>Strict adherence to the <strong>Children's Online Privacy Protection Act (COPPA)</strong> and <strong>Google Play Families Policy</strong>.</li>
+                </ul>
+            </div>
+
+            <!-- Card 2: Zero Data Collection -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-box icon-green">
+                        <span class="material-symbols-outlined">lock</span>
+                    </div>
+                    <h2>2. Information Collection & Usage</h2>
+                </div>
+                <p><strong>We collect ZERO personal data.</strong></p>
+                <ul>
+                    <li><strong>100% Offline Gameplay:</strong> All interactive drawing and coloring activities execute completely locally on your device.</li>
+                    <li><strong>No Tracking or Analytics:</strong> We do not track user behavior, usage habits, or device telemetry.</li>
+                    <li><strong>No Location Tracking:</strong> The application never accesses GPS or IP-based location data.</li>
+                </ul>
+                <div class="highlight-box">
+                    <p>🛡️ Guarantee: Your child's creativity remains strictly private and stays on your personal device at all times.</p>
+                </div>
+            </div>
+
+            <!-- Card 3: Permissions -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-box icon-blue">
+                        <span class="material-symbols-outlined">toggle_on</span>
+                    </div>
+                    <h2>3. Device Permissions</h2>
+                </div>
+                <p>The application only requests minimal system access required for tactile play:</p>
+                <ul>
+                    <li><strong>Haptic Vibration:</strong> Used strictly to produce subtle tactile button press feedback during coloring.</li>
+                    <li><strong>No Sensitive Permissions:</strong> The app does not request access to Camera, Microphone, Contacts, Storage, or SMS.</li>
+                </ul>
+            </div>
+
+            <!-- Card 4: Ads & Purchases -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-box icon-yellow">
+                        <span class="material-symbols-outlined">do_not_disturb</span>
+                    </div>
+                    <h2>4. No Advertisements & No In-App Purchases</h2>
+                </div>
+                <p>To ensure an uninterrupted, stress-free creative space for kids:</p>
+                <ul>
+                    <li><strong>Zero Advertisements:</strong> There are no banner ads, video ads, or interstitial ads.</li>
+                    <li><strong>Zero In-App Purchases:</strong> No microtransactions, subscriptions, or hidden fees.</li>
+                    <li><strong>No External Web Links:</strong> The app contains no links to third-party websites or external stores.</li>
+                </ul>
+            </div>
+
+            <!-- Card 5: Legal & COPPA Compliance -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-box icon-purple">
+                        <span class="material-symbols-outlined">gavel</span>
+                    </div>
+                    <h2>5. Regulatory Compliance</h2>
+                </div>
+                <p><strong>COPPA Compliance:</strong> We do not collect or distribute any personal information from children under 13.</p>
+                <p><strong>Google Play Families Policy:</strong> Our app is certified compliant with all Google Play family safety and age-appropriate guidelines.</p>
+                <p><strong>GDPR Compliance:</strong> European Union privacy and data minimization standards are fully observed.</p>
+            </div>
+
+            <!-- Card 6: Contact Us -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="icon-box icon-red">
+                        <span class="material-symbols-outlined">mail</span>
+                    </div>
+                    <h2>6. Contact Us</h2>
+                </div>
+                <p>If you have any questions or concerns regarding our privacy practices, please contact us at:</p>
+                <p><strong>Developer:</strong> Suraj Sahani (MartialCoder)</p>
+                <p><strong>Email:</strong> <a href="mailto:support@martialcoder.com" style="color: var(--accent-yellow);">support@martialcoder.com</a></p>
+                <p><strong>Website:</strong> <a href="https://surajsahani.github.io" style="color: var(--accent-yellow);">surajsahani.github.io</a></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Primary Play: Color & Learn. All rights reserved.</p>
+            <p>Designed for Toddlers & Preschoolers • Safe & Ad-Free</p>
+        </footer>
+    </div>
+</body>
+</html>
