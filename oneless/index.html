@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - OneLess</title>
+    <meta name="description" content="Privacy Policy for OneLess - Minimalist Digital Wellbeing, Focus & Productivity for Android.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #090d16 0%, #0f172a 40%, #1e1b4b 75%, #090d16 100%);
+            --card-bg: rgba(15, 23, 42, 0.82);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #6366f1;
+            --accent-glow: rgba(99, 102, 241, 0.25);
+            --accent-hover: #818cf8;
+            --accent-subtle: rgba(99, 102, 241, 0.12);
+            --badge-bg: rgba(99, 102, 241, 0.16);
+            --badge-border: rgba(99, 102, 241, 0.35);
+            --badge-text: #c7d2fe;
+            --code-bg: rgba(0, 0, 0, 0.4);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-main);
+            line-height: 1.75;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px 30px;
+            background: var(--card-bg);
+            border-radius: 20px;
+            border: 1px solid var(--card-border);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5), 0 0 50px -10px var(--accent-glow);
+        }
+
+        .app-icon {
+            font-size: 52px;
+            display: inline-block;
+            margin-bottom: 12px;
+            filter: drop-shadow(0 4px 16px var(--accent-glow));
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #818cf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .meta-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .badge {
+            background: var(--badge-bg);
+            border: 1px solid var(--badge-border);
+            color: var(--badge-text);
+            padding: 4px 14px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        main {
+            background: var(--card-bg);
+            border-radius: 20px;
+            border: 1px solid var(--card-border);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            padding: 40px 45px;
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.45rem;
+            font-weight: 600;
+            color: #f1f5f9;
+            margin-top: 35px;
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 14px;
+            font-size: 0.98rem;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+
+        li {
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            padding-left: 24px;
+            position: relative;
+            font-size: 0.98rem;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--accent);
+            position: absolute;
+            left: 8px;
+            font-size: 1.3rem;
+            line-height: 1.2;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        .highlight-box {
+            background: var(--accent-subtle);
+            border: 1px solid var(--badge-border);
+            border-left: 4px solid var(--accent);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 24px 0;
+        }
+
+        .highlight-box p {
+            color: #e2e8f0;
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            margin: 20px 0;
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.92rem;
+        }
+
+        th {
+            background: rgba(30, 41, 59, 0.7);
+            color: var(--text-main);
+            padding: 14px 16px;
+            font-weight: 600;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        td {
+            padding: 14px 16px;
+            color: var(--text-muted);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        code {
+            background: var(--code-bg);
+            color: var(--badge-text);
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        a {
+            color: var(--accent-hover);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #a5b4fc;
+            text-decoration: underline;
+        }
+
+        .contact-card {
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid var(--card-border);
+            border-radius: 14px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .contact-card ul {
+            margin-bottom: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px 10px;
+            color: #64748b;
+            font-size: 0.88rem;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 20px 12px;
+            }
+            main {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">✨</div>
+            <h1>Privacy Policy</h1>
+            <p><strong>OneLess</strong> &mdash; Minimalist Focus, Digital Wellbeing & Productivity</p>
+            <div class="meta-badges">
+                <span class="badge">📦 Package: com.martialcoder.oneless</span>
+                <span class="badge">📅 Last Updated: September 5, 2026</span>
+                <span class="badge">🛡️ GDPR / CCPA / COPPA Compliant</span>
+            </div>
+        </header>
+
+        <main>
+            <h2>1. Introduction & Overview</h2>
+            <p>Welcome to <strong>OneLess</strong> ("the App"), developed by <strong>MartialCoder (Suraj Sahani)</strong> ("we", "us", or "our"). OneLess is designed as a minimalist, distraction-free digital wellbeing and productivity application created to help you declutter your digital life, focus on what matters, and cultivate intentional device usage.</p>
+            <p>We believe that your digital privacy is a fundamental human right. This Privacy Policy outlines our transparent practices regarding data collection, storage, device permissions, and security when you use the OneLess Android mobile application.</p>
+
+            <div class="highlight-box">
+                <p>🔒 <strong>Local-First & Zero Harvesting Pledge:</strong> OneLess is built with a strict local-first architecture. Your focus goals, digital detox logs, habits, preferences, and customized configurations are stored exclusively on your device. We do not sell, rent, monetize, or harvest your private data.</p>
+            </div>
+
+            <h2>2. Information Collection and Handling</h2>
+            <p>OneLess operates with extreme data minimization principles. We only process data strictly necessary to provide core digital wellbeing functionality:</p>
+            <ul>
+                <li><strong>Local User Data & Preferences:</strong> Your customized focus modes, task lists, habits, minimalist launcher shortcuts, usage timers, and app settings are stored locally on your device storage (via local database / SharedPreferences). This data never leaves your device unless you choose to export it.</li>
+                <li><strong>Anonymous Diagnostic & Performance Telemetry:</strong> Non-personally identifiable diagnostic information (such as crash stack traces, Android OS version, and device hardware model) may be captured via standard Google Play Services solely to troubleshoot bugs, prevent crashes, and maintain app stability.</li>
+                <li><strong>No Mandatory Account Registration:</strong> OneLess does not require account creation, email sign-ups, or social media logins to access its primary features.</li>
+            </ul>
+
+            <h2>3. Permissions Used by OneLess</h2>
+            <p>To enable seamless focus tracking, minimalist notifications, and habit reminders, OneLess may request certain Android system permissions:</p>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Permission</th>
+                            <th>Purpose & Necessity</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>POST_NOTIFICATIONS</code></td>
+                            <td>Allows OneLess to send subtle focus reminders, habit nudges, or digital detox completion alerts.</td>
+                            <td>Optional / User Granted</td>
+                        </tr>
+                        <tr>
+                            <td><code>SCHEDULE_EXACT_ALARM</code></td>
+                            <td>Ensures high-precision focus session timers and scheduled quiet intervals fire accurately even during device Doze mode.</td>
+                            <td>Functional</td>
+                        </tr>
+                        <tr>
+                            <td><code>PACKAGE_USAGE_STATS</code> / <code>QUERY_ALL_PACKAGES</code></td>
+                            <td>Used strictly on-device if you enable intentional app launching or screen time awareness to display and minimize distracting apps. No usage history is ever transmitted off-device.</td>
+                            <td>Optional (On Demand)</td>
+                        </tr>
+                        <tr>
+                            <td><code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code></td>
+                            <td>Used exclusively for checking app updates, verifying Google Play Integrity, and sending non-identifiable crash diagnostic reports.</td>
+                            <td>Standard</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>You can grant, review, or revoke any optional permission at any time through your Android device's <em>Settings &rarr; Apps &rarr; OneLess &rarr; Permissions</em>.</p>
+
+            <h2>4. Data Storage and Sandbox Security</h2>
+            <p>We employ modern Android security best practices to protect your data:</p>
+            <ul>
+                <li><strong>On-Device Sandbox Isolation:</strong> All user configurations are stored within private application sandboxes that cannot be accessed by other applications installed on your device.</li>
+                <li><strong>Encrypted Connections:</strong> Any outbound network interactions (such as version updates or store services) use industry-standard HTTPS/TLS encryption.</li>
+                <li><strong>Zero Data Brokerage:</strong> We do not share, sell, trade, or monetize user data with third-party advertisers, trackers, or marketing brokers.</li>
+            </ul>
+
+            <h2>5. Third-Party Services</h2>
+            <p>OneLess may integrate standard, trustworthy platform services provided by Google:</p>
+            <ul>
+                <li><strong>Google Play Services & Google Play Integrity:</strong> Used for secure app distribution, license verification, and in-app updates. Google's privacy practices are governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+            </ul>
+
+            <h2>6. Children's Privacy (COPPA Compliance)</h2>
+            <p>OneLess complies with the Children's Online Privacy Protection Act (COPPA) and international child data protection standards. Our application is not directed at children under the age of 13, and we do not knowingly collect personal identifiable information from children. If you believe that a minor has provided information to us, please reach out to us and we will promptly ensure it is addressed.</p>
+
+            <h2>7. Your Rights (GDPR & CCPA/CPRA Compliance)</h2>
+            <p>Regardless of your region (including the European Union, European Economic Area, United Kingdom, and California), you maintain full autonomy over your data:</p>
+            <ul>
+                <li><strong>Right to Access & Control:</strong> All your digital focus data is readily visible and accessible inside the app at all times.</li>
+                <li><strong>Right to Complete Erasure:</strong> You can permanently wipe all data and preferences at any moment by clearing the app's cache and storage in Android Settings, or simply by uninstalling the application.</li>
+                <li><strong>Right to Non-Discrimination:</strong> We do not discriminate against users for exercising their privacy rights.</li>
+            </ul>
+
+            <h2>8. Updates to this Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time to accommodate new features, evolving regulations, or operational enhancements. Any changes will be posted on this page with an updated "Last Updated" timestamp.</p>
+
+            <h2>9. Contact Information</h2>
+            <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or your privacy while using OneLess, please contact us:</p>
+
+            <div class="contact-card">
+                <ul>
+                    <li><strong>Developer:</strong> Suraj Sahani (MartialCoder)</li>
+                    <li><strong>Email Support:</strong> <a href="mailto:support@martialcoder.com">support@martialcoder.com</a> / <a href="mailto:surajsahani@navgurukul.org">surajsahani@navgurukul.org</a></li>
+                    <li><strong>GitHub Profile:</strong> <a href="https://github.com/surajsahani" target="_blank" rel="noopener">https://github.com/surajsahani</a></li>
+                    <li><strong>Developer Website:</strong> <a href="https://surajsahani.github.io/" target="_blank" rel="noopener">https://surajsahani.github.io/</a></li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 MartialCoder (Suraj Sahani). All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
