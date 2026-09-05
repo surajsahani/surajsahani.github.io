@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Cook Extra</title>
+    <meta name="description" content="Privacy Policy for Cook Extra - Smart Kitchen & Recipe Companion for Android.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍳</text></svg>">
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #0c0a09 0%, #1c1917 40%, #292524 70%, #0c0a09 100%);
+            --card-bg: rgba(28, 25, 23, 0.78);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-main: #fafaf9;
+            --text-muted: #a8a29e;
+            --accent: #f59e0b;
+            --accent-glow: rgba(245, 158, 11, 0.25);
+            --accent-hover: #fbbf24;
+            --accent-subtle: rgba(245, 158, 11, 0.12);
+            --badge-bg: rgba(245, 158, 11, 0.15);
+            --badge-border: rgba(245, 158, 11, 0.35);
+            --badge-text: #fde68a;
+            --code-bg: rgba(0, 0, 0, 0.35);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-main);
+            line-height: 1.75;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 36px;
+            padding: 36px 24px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+        }
+
+        .logo-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 18px;
+            background: var(--badge-bg);
+            border: 1px solid var(--badge-border);
+            border-radius: 9999px;
+            color: var(--badge-text);
+            font-size: 0.88rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.6rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 0%, #fef3c7 50%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .subtitle span {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .content {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 44px 40px;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+        }
+
+        @media (max-width: 640px) {
+            .content {
+                padding: 28px 20px;
+            }
+            h1 {
+                font-size: 2.1rem;
+            }
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.45rem;
+            font-weight: 600;
+            color: #fef3c7;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #d6d3d1;
+            font-size: 1rem;
+        }
+
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 24px;
+            color: #d6d3d1;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li strong {
+            color: #fafaf9;
+        }
+
+        .highlight-box {
+            background: var(--accent-subtle);
+            border: 1px solid var(--badge-border);
+            border-radius: 16px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #fde68a;
+            font-size: 0.95rem;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            margin: 20px 0;
+            border-radius: 14px;
+            border: 1px solid var(--card-border);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.92rem;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        th {
+            background: rgba(0, 0, 0, 0.4);
+            color: #fde68a;
+            font-weight: 600;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        td {
+            background: rgba(0, 0, 0, 0.15);
+            color: #d6d3d1;
+        }
+
+        code {
+            background: var(--code-bg);
+            padding: 2px 7px;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            color: #fde68a;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+
+        .contact-card {
+            background: rgba(0, 0, 0, 0.25);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-top: 20px;
+        }
+
+        .contact-card ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .contact-card li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .contact-card li:last-child {
+            margin-bottom: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 36px;
+            color: var(--text-muted);
+            font-size: 0.88rem;
+        }
+
+        footer a {
+            color: var(--text-muted);
+        }
+
+        footer a:hover {
+            color: var(--text-main);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-badge">
+                <span>🍳</span> Cook Extra &bull; Mobile Application
+            </div>
+            <h1>Privacy Policy</h1>
+            <div class="subtitle">
+                <span><strong>App:</strong> Cook Extra</span>
+                <span>&bull;</span>
+                <span><strong>Package:</strong> <code>com.martialcoder.cookextra</code></span>
+                <span>&bull;</span>
+                <span><strong>Last Updated:</strong> September 2026</span>
+            </div>
+        </header>
+
+        <main class="content">
+            <h2>1. Introduction & Overview</h2>
+            <p>Welcome to <strong>Cook Extra</strong> ("we", "our", or "us"), developed by <strong>MartialCoder (Suraj Sahani)</strong>. Cook Extra is a smart culinary assistant and recipe companion designed for Android devices to help users discover, organize, cook, and manage delicious recipes and kitchen timers seamlessly.</p>
+            <p>We are dedicated to safeguarding your personal privacy. This Privacy Policy explains our practices regarding the collection, use, storage, and protection of information when you download, install, and interact with Cook Extra.</p>
+
+            <div class="highlight-box">
+                <p>🔒 <strong>Privacy First Pledge:</strong> Cook Extra is built with a local-first philosophy. Your custom recipes, ingredient inventories, notes, and cooking preferences are stored directly on your device. We do not sell, rent, monetize, or harvest your private data.</p>
+            </div>
+
+            <h2>2. Information Collection and Handling</h2>
+            <p>Cook Extra collects minimal data solely required to provide an optimal and uninterrupted kitchen experience:</p>
+            <ul>
+                <li><strong>Local User Data:</strong> All recipes you create, meal schedules, cooking timer logs, dietary preferences, and saved favorite dishes are stored locally on your device storage (via local database). This data never leaves your device unless you manually initiate a backup or export.</li>
+                <li><strong>Anonymous Diagnostic & Performance Data:</strong> Non-personally identifiable diagnostic telemetry (such as crash logs, system OS versions, and device models) may be processed via standard Google Play Services solely to diagnose crashes, resolve bugs, and optimize app performance.</li>
+                <li><strong>No Account Registration Required:</strong> Cook Extra does not force you to provide personal identifiers such as your full name, home address, or phone number to access core culinary features.</li>
+            </ul>
+
+            <h2>3. Permissions Used by Cook Extra</h2>
+            <p>To deliver advanced cooking utilities, timers, and meal management features, Cook Extra may request certain Android system permissions:</p>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Permission</th>
+                            <th>Purpose & Necessity</th>
+                            <th>Requirement</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>POST_NOTIFICATIONS</code></td>
+                            <td>Required to alert you when cooking timers, baking countdowns, or rest intervals are complete.</td>
+                            <td>Optional / User Granted</td>
+                        </tr>
+                        <tr>
+                            <td><code>SCHEDULE_EXACT_ALARM</code></td>
+                            <td>Ensures high-precision cooking timers fire accurately even when your device is in sleep or Doze mode.</td>
+                            <td>Functional</td>
+                        </tr>
+                        <tr>
+                            <td><code>READ_MEDIA_IMAGES</code> / <code>READ_EXTERNAL_STORAGE</code></td>
+                            <td>Allows you to choose custom dish photos from your gallery to attach to your custom recipes.</td>
+                            <td>Optional (On Demand)</td>
+                        </tr>
+                        <tr>
+                            <td><code>CAMERA</code></td>
+                            <td>Allows you to snap photos of cooked dishes or scan recipe ingredients directly from within the app.</td>
+                            <td>Optional (On Demand)</td>
+                        </tr>
+                        <tr>
+                            <td><code>RECORD_AUDIO</code></td>
+                            <td>Used solely for hands-free voice commands while cooking (e.g. "Next step" or "Set 10 minute timer"). Audio is processed on-device and never stored or uploaded.</td>
+                            <td>Optional (Voice Mode)</td>
+                        </tr>
+                        <tr>
+                            <td><code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code></td>
+                            <td>Used to fetch online recipe content, culinary suggestions, or app update verifications.</td>
+                            <td>Standard</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>You can grant, review, or revoke these permissions at any time through your Android device's <em>Settings &rarr; Apps &rarr; Cook Extra &rarr; Permissions</em>.</p>
+
+            <h2>4. Data Storage and Security</h2>
+            <p>We take data protection seriously and apply industry-standard practices to ensure your data is secure:</p>
+            <ul>
+                <li><strong>On-Device Encryption:</strong> All app configuration and user recipes are stored in private app sandboxes isolated from other applications on your device.</li>
+                <li><strong>Secure Network Communication:</strong> Any external web requests (such as retrieving recipe templates) are encrypted over secure HTTPS/TLS channels.</li>
+                <li><strong>No Third-Party Brokers:</strong> We do not share or sell user data to advertising aggregators, data brokers, or marketing networks.</li>
+            </ul>
+
+            <h2>5. Third-Party Services</h2>
+            <p>Cook Extra may integrate essential platform libraries provided by trusted partners:</p>
+            <ul>
+                <li><strong>Google Play Services:</strong> Used for app distribution, in-app updates, and standard crash reporting. Google's privacy practices are governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+            </ul>
+
+            <h2>6. Children's Privacy (COPPA Compliance)</h2>
+            <p>Cook Extra complies with the Children's Online Privacy Protection Act (COPPA) and international child privacy regulations. Our application is not directed at children under the age of 13, and we do not knowingly collect personal information from children. If you believe that a child has provided personal information to us, please contact us immediately so that we can remove it.</p>
+
+            <h2>7. Your Rights (GDPR & CCPA/CPRA Compliance)</h2>
+            <p>Depending on your geographic location (including the European Economic Area, the UK, and California), you hold specific privacy rights regarding your data:</p>
+            <ul>
+                <li><strong>Right to Access & Portability:</strong> You can view and export your recipes and app data at any time.</li>
+                <li><strong>Right to Deletion:</strong> You can completely erase all app data and custom recipes by clearing the app's cache and storage in Android Settings or uninstalling the app.</li>
+                <li><strong>Right to Non-Discrimination:</strong> We provide equal service and functionality regardless of your privacy choices.</li>
+            </ul>
+
+            <h2>8. Changes to this Privacy Policy</h2>
+            <p>We may update this Privacy Policy periodically to reflect new features, operational practices, or legal requirements. Any modifications will be posted on this page with an updated "Last Updated" date. We encourage you to review this policy periodically.</p>
+
+            <h2>9. Contact Information</h2>
+            <p>If you have any questions, suggestions, or concerns regarding this Privacy Policy or your data within Cook Extra, please feel free to reach out:</p>
+
+            <div class="contact-card">
+                <ul>
+                    <li><strong>Developer:</strong> Suraj Sahani (MartialCoder)</li>
+                    <li><strong>Email Support:</strong> <a href="mailto:support@martialcoder.com">support@martialcoder.com</a> / <a href="mailto:surajsahani@navgurukul.org">surajsahani@navgurukul.org</a></li>
+                    <li><strong>GitHub Repository:</strong> <a href="https://github.com/surajsahani/Cook-Extra" target="_blank" rel="noopener">https://github.com/surajsahani/Cook-Extra</a></li>
+                    <li><strong>Website:</strong> <a href="https://surajsahani.github.io/" target="_blank" rel="noopener">https://surajsahani.github.io/</a></li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 MartialCoder (Suraj Sahani). All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
