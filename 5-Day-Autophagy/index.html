@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - 5 Day Autophagy</title>
+    <meta name="description" content="Privacy Policy for 5 Day Autophagy Android Application. Learn how your data is handled and protected.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0f1d;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.75);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-highlight: rgba(16, 185, 129, 0.3);
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --accent-green: #10b981;
+            --accent-green-glow: rgba(16, 185, 129, 0.15);
+            --accent-teal: #14b8a6;
+            --accent-blue: #3b82f6;
+            --accent-amber: #f59e0b;
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --radius-sm: 8px;
+            --shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-primary: #f8fafc;
+                --bg-secondary: #ffffff;
+                --bg-card: rgba(255, 255, 255, 0.9);
+                --border-color: rgba(0, 0, 0, 0.08);
+                --border-highlight: rgba(16, 185, 129, 0.4);
+                --text-primary: #0f172a;
+                --text-secondary: #475569;
+                --text-muted: #94a3b8;
+                --accent-green-glow: rgba(16, 185, 129, 0.1);
+                --shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding: 0;
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 40%);
+            background-attachment: fixed;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            background: var(--bg-card);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-group {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 38px;
+            height: 38px;
+            border-radius: var(--radius-sm);
+            background: linear-gradient(135deg, var(--accent-green), var(--accent-teal));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 12px var(--accent-green-glow);
+        }
+
+        .logo-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .badge-verified {
+            background: var(--accent-green-glow);
+            color: var(--accent-green);
+            border: 1px solid var(--border-highlight);
+            padding: 0.25rem 0.6rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2.5rem auto 4rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2.5rem 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(8px);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.75rem;
+            background: linear-gradient(135deg, var(--text-primary) 30%, var(--text-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            max-width: 650px;
+            margin: 0 auto 1.5rem auto;
+        }
+
+        .meta-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+            font-size: 0.825rem;
+        }
+
+        .meta-pill {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border-color);
+            padding: 0.35rem 0.85rem;
+            border-radius: 9999px;
+            color: var(--text-secondary);
+        }
+
+        .meta-pill strong {
+            color: var(--text-primary);
+        }
+
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .highlight-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--border-highlight);
+        }
+
+        .highlight-icon {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+            color: var(--text-primary);
+        }
+
+        .highlight-desc {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .policy-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 2.5rem;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+            backdrop-filter: blur(8px);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .section-header:first-of-type {
+            margin-top: 0;
+        }
+
+        .section-num {
+            background: var(--accent-green-glow);
+            color: var(--accent-green);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+        }
+
+        .section-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+            font-size: 0.975rem;
+        }
+
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.25rem;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 0.975rem;
+        }
+
+        li strong {
+            color: var(--text-primary);
+        }
+
+        .alert-box {
+            background: rgba(245, 158, 11, 0.08);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+            border-left: 4px solid var(--accent-amber);
+            border-radius: var(--radius-sm);
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+            color: var(--text-secondary);
+            font-size: 0.925rem;
+        }
+
+        .alert-box strong {
+            color: var(--accent-amber);
+            display: block;
+            margin-bottom: 0.25rem;
+            font-size: 0.95rem;
+        }
+
+        .contact-box {
+            background: rgba(59, 130, 246, 0.05);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .contact-box h4 {
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-link {
+            color: var(--accent-green);
+            text-decoration: none;
+            font-weight: 600;
+            word-break: break-all;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            padding: 2rem 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            background: var(--bg-card);
+        }
+
+        footer a {
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent-green);
+        }
+
+        .code-pill {
+            font-family: 'JetBrains Mono', monospace;
+            background: rgba(255, 255, 255, 0.07);
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.85em;
+            color: var(--accent-teal);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo-group">
+                <div class="logo-icon">5A</div>
+                <div class="logo-title">5 Day Autophagy</div>
+            </a>
+            <div class="badge-verified">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    <path d="m9 12 2 2 4-4"/>
+                </svg>
+                Official Policy
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Header -->
+        <div class="hero">
+            <h1>Privacy Policy</h1>
+            <p>Transparency and privacy first. Learn how the <strong>5 Day Autophagy</strong> app respects and protects your personal health and fasting journey.</p>
+            <div class="meta-tags">
+                <div class="meta-pill"><strong>Application:</strong> 5 Day Autophagy</div>
+                <div class="meta-pill"><strong>Package ID:</strong> <span class="code-pill">com.martialcoder.a5dayautophagy</span></div>
+                <div class="meta-pill"><strong>Effective Date:</strong> September 4, 2026</div>
+                <div class="meta-pill"><strong>Developer:</strong> Suraj Sahani</div>
+            </div>
+        </div>
+
+        <!-- Privacy Highlights Grid -->
+        <div class="highlight-grid">
+            <div class="highlight-card">
+                <div class="highlight-icon">🔒</div>
+                <div class="highlight-title">100% On-Device</div>
+                <div class="highlight-desc">Your fasting logs and timers are stored strictly on your local device.</div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-icon">🚫</div>
+                <div class="highlight-title">No Account Needed</div>
+                <div class="highlight-desc">No signup, no emails, no passwords, and no login credentials required.</div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-icon">🛡️</div>
+                <div class="highlight-title">No Data Brokers</div>
+                <div class="highlight-desc">We never sell, rent, monetize, or disclose your data to third parties.</div>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-icon">⚡</div>
+                <div class="highlight-title">Zero Ad Tracking</div>
+                <div class="highlight-desc">No tracking pixels, behavioral profiling, or advertising identifier collection.</div>
+            </div>
+        </div>
+
+        <!-- Full Policy Content -->
+        <div class="policy-card">
+            
+            <div class="section-header">
+                <div class="section-num">1</div>
+                <h2 class="section-title">Introduction & Scope</h2>
+            </div>
+            <p>
+                Welcome to <strong>5 Day Autophagy</strong> ("we", "our", or "the App"), developed by <strong>Suraj Sahani</strong> (MartialCoder). 
+                We are firmly committed to protecting the privacy and personal health information of our users. 
+                This Privacy Policy explains how our mobile application handles user data when you download, install, and use 5 Day Autophagy.
+            </p>
+            <p>
+                By using 5 Day Autophagy, you agree to the minimal and transparent practices described in this Privacy Policy.
+            </p>
+
+            <div class="section-header">
+                <div class="section-num">2</div>
+                <h2 class="section-title">Information We Collect (and Do Not Collect)</h2>
+            </div>
+            <p>
+                <strong>5 Day Autophagy is built with a strict privacy-by-design architecture:</strong>
+            </p>
+            <ul>
+                <li><strong>No Personal Identifiable Information (PII):</strong> We do not collect names, email addresses, phone numbers, contacts, physical addresses, or financial information.</li>
+                <li><strong>Local Fasting & Tracker Data:</strong> When you start a fast, log milestones, track hydration, or record journal notes, all data is stored exclusively in your device's private internal storage sandbox using Android local mechanisms. None of this data is transmitted to our servers or any cloud database.</li>
+                <li><strong>No Precise Location Data:</strong> The App does not request, track, or access your GPS or precise location data.</li>
+                <li><strong>No Biometric Data:</strong> The App does not collect or process your fingerprints, face scans, or health sensor telemetry.</li>
+            </ul>
+
+            <div class="section-header">
+                <div class="section-num">3</div>
+                <h2 class="section-title">Device Permissions and Usage</h2>
+            </div>
+            <p>
+                The App only requests standard Android operating system permissions strictly essential for user-requested functions:
+            </p>
+            <ul>
+                <li><strong>Notifications (POST_NOTIFICATIONS):</strong> Used solely to alert you when you reach designated fasting milestones (such as Ketosis, Autophagy onset, Deep Autophagy phases) or scheduled reminder alarms. You may disable notifications at any time via Android system settings.</li>
+                <li><strong>Exact Alarms / Schedule Exact Alarm:</strong> Used to trigger local notifications precisely when your fasting timer reaches specific hour goals.</li>
+            </ul>
+
+            <div class="section-header">
+                <div class="section-num">4</div>
+                <h2 class="section-title">Third-Party Services and Analytics</h2>
+            </div>
+            <p>
+                We believe health and wellness tracking should remain private. Accordingly:
+            </p>
+            <ul>
+                <li>We <strong>do not</strong> include third-party advertising SDKs or data broker tools.</li>
+                <li>We <strong>do not</strong> sell, rent, or trade any user information for commercial or marketing purposes.</li>
+                <li>Any potential crash diagnostics provided by Google Play Console are aggregated, anonymized, and managed according to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="contact-link">Google's Privacy Policy</a>.</li>
+            </ul>
+
+            <div class="section-header">
+                <div class="section-num">5</div>
+                <h2 class="section-title">Medical & Health Disclaimer</h2>
+            </div>
+            <div class="alert-box">
+                <strong>⚠️ IMPORTANT MEDICAL DISCLAIMER</strong>
+                5 Day Autophagy is designed strictly as an educational timer and self-quantified tracking utility. 
+                It is <strong>not a medical device</strong> and does not provide medical diagnoses, clinical treatments, or personalized medical advice. 
+                Prolonged fasting or intense dietary changes carry physiological risks and should never be attempted by individuals who are pregnant, breastfeeding, diabetic, underweight, under 18 years old, or managing chronic health conditions without direct physician supervision.
+            </div>
+
+            <div class="section-header">
+                <div class="section-num">6</div>
+                <h2 class="section-title">Data Storage, Retention & Deletion</h2>
+            </div>
+            <p>
+                Because all user data is stored locally on your device:
+            </p>
+            <ul>
+                <li><strong>Retention:</strong> Your data remains on your device for as long as the App is installed.</li>
+                <li><strong>Deletion:</strong> You can delete all data at any time by clearing the App's storage via <em>Android Settings &gt; Apps &gt; 5 Day Autophagy &gt; Storage &gt; Clear Data</em>, or simply by uninstalling the application.</li>
+            </ul>
+
+            <div class="section-header">
+                <div class="section-num">7</div>
+                <h2 class="section-title">Children's Privacy (COPPA &amp; GDPR Compliance)</h2>
+            </div>
+            <p>
+                5 Day Autophagy is not intended for use by children under the age of 13 (or under 16 in certain jurisdictions). 
+                We do not knowingly collect or solicit any data from children. 
+                If you believe that a minor has provided data or is using prolonged fasting protocols, please contact us immediately so appropriate steps can be taken.
+            </p>
+
+            <div class="section-header">
+                <div class="section-num">8</div>
+                <h2 class="section-title">Changes to This Privacy Policy</h2>
+            </div>
+            <p>
+                We may update this Privacy Policy from time to time to reflect application improvements or legal obligations. 
+                Any modifications will be posted directly to this public web page with an updated "Effective Date". 
+                We encourage you to review this page periodically.
+            </p>
+
+            <div class="section-header">
+                <div class="section-num">9</div>
+                <h2 class="section-title">Contact &amp; Developer Information</h2>
+            </div>
+            <p>
+                If you have any questions, suggestions, or concerns regarding this Privacy Policy or your data privacy, please contact the developer:
+            </p>
+            
+            <div class="contact-box">
+                <h4>Suraj Sahani (MartialCoder)</h4>
+                <p><strong>Email:</strong> <a href="mailto:surajsahani@navgurukul.org" class="contact-link">surajsahani@navgurukul.org</a></p>
+                <p><strong>Developer Profile:</strong> <a href="https://github.com/surajsahani" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/surajsahani</a></p>
+                <p><strong>Repository:</strong> <a href="https://github.com/surajsahani/5-Day-Autophagy" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/surajsahani/5-Day-Autophagy</a></p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 5 Day Autophagy by <a href="https://github.com/surajsahani" target="_blank">Suraj Sahani</a>. All rights reserved.</p>
+        <p style="margin-top: 0.5rem;"><a href="privacy-policy.html">Privacy Policy</a> &bull; <a href="https://github.com/surajsahani/5-Day-Autophagy" target="_blank">GitHub Repository</a></p>
+    </footer>
+
+</body>
+</html>
