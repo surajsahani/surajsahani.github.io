@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - EditPro</title>
+    <meta name="description" content="Privacy Policy for EditPro - Powerful Video Editing Right in Your Pocket.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #090A10;
+            --bg-surface: #11131E;
+            --card-surface: #171928;
+            --card-border: #2A2D45;
+            --brand-purple: #8B5CF6;
+            --brand-indigo: #6366F1;
+            --brand-cyan: #06B6D4;
+            --brand-pink: #EC4899;
+            --text-primary: #FFFFFF;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            padding: 0;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        /* Ambient Glow Background */
+        .ambient-glow {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            height: 450px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(99, 102, 241, 0.05) 50%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            background: rgba(17, 19, 30, 0.85);
+            border-bottom: 1px solid var(--card-border);
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 18px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 38px;
+            height: 38px;
+            background: linear-gradient(135deg, var(--brand-purple), var(--brand-indigo), var(--brand-cyan));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 18px;
+            color: #fff;
+            box-shadow: 0 4px 14px rgba(139, 92, 246, 0.35);
+        }
+
+        .brand-name {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: -0.3px;
+        }
+
+        .brand-tag {
+            font-size: 11px;
+            background: rgba(139, 92, 246, 0.2);
+            color: var(--brand-purple);
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+        }
+
+        .main-container {
+            max-width: 960px;
+            margin: 40px auto 80px;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-banner {
+            background: linear-gradient(180deg, var(--card-surface) 0%, rgba(23, 25, 40, 0.6) 100%);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 36px 32px;
+            margin-bottom: 32px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .hero-banner h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #FFFFFF, #CBD5E1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-meta {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .content-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--card-border);
+            border-radius: 18px;
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+
+        .content-card h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-badge {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            background: rgba(139, 92, 246, 0.15);
+            color: var(--brand-purple);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+            font-size: 14.5px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 14px;
+            color: var(--text-secondary);
+            font-size: 14.5px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        .highlight-box {
+            background: rgba(139, 92, 246, 0.08);
+            border-left: 3px solid var(--brand-purple);
+            padding: 16px 18px;
+            border-radius: 0 12px 12px 0;
+            margin: 18px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #E2E8F0;
+        }
+
+        a {
+            color: var(--brand-cyan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #38BDF8;
+            text-decoration: underline;
+        }
+
+        footer {
+            border-top: 1px solid var(--card-border);
+            background: var(--bg-surface);
+            padding: 32px 24px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .footer-links {
+            margin-top: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ambient-glow"></div>
+
+    <header>
+        <div class="header-container">
+            <a href="https://surajsahani.github.io/EditPro" class="brand-logo">
+                <div class="logo-icon">▶</div>
+                <div class="brand-name">EditPro</div>
+            </a>
+            <div class="brand-tag">Legal & Privacy</div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="hero-banner">
+            <h1>Privacy Policy</h1>
+            <div class="hero-meta">
+                <div class="meta-item"><span>📅</span> Effective Date: September 7, 2026</div>
+                <div class="meta-item"><span>📱</span> Application: EditPro (Android, iOS, Desktop, Web)</div>
+                <div class="meta-item"><span>🏢</span> Developer: Suraj Sahani</div>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">1</span> Overview & Commitment</h2>
+            <p>Welcome to <strong>EditPro</strong> ("we", "our", or "us"). EditPro is a professional video editing suite designed to provide high-performance multi-track timeline editing, AI tools, color grading, and video rendering directly on your device.</p>
+            <p>Your privacy is paramount. This Privacy Policy describes what information we collect, how it is handled, and how your content is protected when using our mobile, desktop, and web applications.</p>
+            <div class="highlight-box">
+                <p><strong>Key Privacy Principle:</strong> Your videos, audio clips, photos, and project files are processed <strong>locally on your device</strong>. We do not upload, scan, or store your personal media files on any private servers without your explicit intent.</p>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">2</span> Information We Collect</h2>
+            <p>We believe in minimal data collection. We only process information essential to the app's functionality:</p>
+            <ul>
+                <li><strong>Local Media & Files:</strong> Videos, images, audio files, and fonts imported into EditPro are accessed strictly for timeline editing and rendering on your device.</li>
+                <li><strong>Anonymous Diagnostics & Crash Data:</strong> Non-personally identifiable diagnostic information (such as crash logs, OS version, device model, and rendering errors) to help us troubleshoot and improve stability.</li>
+                <li><strong>App Preferences:</strong> Local configuration data including theme preferences, export settings, and recent project metadata saved locally on your device.</li>
+            </ul>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">3</span> Device Permissions</h2>
+            <p>To provide video editing capabilities, EditPro may request the following permissions:</p>
+            <ul>
+                <li><strong>Storage / Photos / Media:</strong> Required to import videos, photos, and audio into your editing timeline and to save exported MP4/GIF/MP3 files to your gallery or filesystem.</li>
+                <li><strong>Microphone (Optional):</strong> Required only if you choose to record voiceovers or live audio directly within the app.</li>
+                <li><strong>Notifications (Optional):</strong> Used to notify you when a long video export or background render finishes.</li>
+            </ul>
+            <p>You can manage or revoke these permissions at any time through your device settings.</p>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">4</span> AI & Processing Features</h2>
+            <p>EditPro includes smart tools such as Auto Cut, Auto Captions, Background Removal, and Color Grading. All AI models and filter algorithms operate <strong>on-device</strong> utilizing hardware acceleration. Your media is never transferred to third-party AI training pipelines.</p>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">5</span> Third-Party Services</h2>
+            <p>EditPro may integrate standard developer SDKs provided by third parties:</p>
+            <ul>
+                <li><strong>Google Play Services:</strong> Used for core framework support and application delivery on Android.</li>
+                <li><strong>Firebase Crashlytics & Analytics:</strong> Used for anonymous crash diagnosis and performance monitoring. (Learn more: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>).</li>
+            </ul>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">6</span> Children's Privacy</h2>
+            <p>EditPro does not knowingly collect or solicit personal information from children under the age of 13 (or under 16 in certain jurisdictions). If we become aware that personal information from a child has been collected, we will take immediate steps to delete such data.</p>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">7</span> Security of Your Data</h2>
+            <p>We implement industry-standard security safeguards. Your project assets, credentials, and configuration files are protected by your operating system's sandbox and secure local storage mechanisms.</p>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">8</span> Policy Updates</h2>
+            <p>We may update this Privacy Policy periodically to reflect new features or regulatory requirements. Any updates will be posted on this page with an updated Effective Date.</p>
+        </div>
+
+        <div class="content-card">
+            <h2><span class="section-badge">9</span> Contact Us</h2>
+            <p>If you have questions, feedback, or concerns regarding this Privacy Policy or your data, please reach out to us:</p>
+            <ul>
+                <li><strong>Developer:</strong> Suraj Sahani (martialcoder)</li>
+                <li><strong>Website:</strong> <a href="https://surajsahani.github.io/" target="_blank" rel="noopener">https://surajsahani.github.io/</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/surajsahani/EditPro" target="_blank" rel="noopener">https://github.com/surajsahani/EditPro</a></li>
+                <li><strong>Email:</strong> <a href="mailto:surajkumarsahani1997@gmail.com">surajkumarsahani1997@gmail.com</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EditPro. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://surajsahani.github.io/">Portfolio</a>
+            <a href="https://github.com/surajsahani/EditPro">GitHub Repository</a>
+            <a href="https://surajsahani.github.io/EditPro">Privacy Policy</a>
+        </div>
+    </footer>
+
+</body>
+</html>
