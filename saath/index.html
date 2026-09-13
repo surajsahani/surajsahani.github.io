@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saath - Official App & Legal Portal</title>
+  <meta name="description" content="Saath Android App Official Portal & Privacy Policy Center by Suraj Sahani (martialcoder).">
+  
+  <!-- Favicon & Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="app-icon">S</div>
+        <div class="brand-text">Saath <span>App</span></div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Overview</a></li>
+        <li><a href="privacy.html" class="nav-link">Privacy Policy</a></li>
+        <li><a href="terms.html" class="nav-link">Terms of Service</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+          <i class="fas fa-sun"></i>
+        </button>
+        <a href="privacy.html" class="btn btn-primary btn-sm">
+          <i class="fas fa-shield-alt"></i> Privacy Policy
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="badge">
+        <span class="badge-dot"></span> Android Application & Legal Portal
+      </div>
+      <h1 class="hero-title">Welcome to <span class="gradient-text">Saath</span></h1>
+      <p class="hero-desc">
+        A modern Android application engineered with Jetpack Compose by <strong>Suraj Sahani</strong> (martialcoder). Access official documentation, compliance declarations, and legal policies below.
+      </p>
+      
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <i class="fab fa-android"></i> <strong>Package:</strong> com.martialcoder.saath
+        </div>
+        <div class="hero-meta-item">
+          <i class="fas fa-code-branch"></i> <strong>Version:</strong> 1.0 (Build 1)
+        </div>
+        <div class="hero-meta-item">
+          <i class="fas fa-certificate"></i> <strong>Target SDK:</strong> Android 14+ (API 37)
+        </div>
+      </div>
+
+      <!-- Quick Copy for Google Play Console -->
+      <div class="quick-url-banner">
+        <div class="quick-url-info">
+          <span class="label">Google Play Console Privacy Policy Link</span>
+          <span class="url-text">https://surajsahani.github.io/saath/privacy.html</span>
+        </div>
+        <button class="btn btn-primary btn-sm" data-copy="policy-url">
+          <i class="fas fa-copy"></i> Copy Policy URL
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Layout -->
+  <main class="main-layout" style="grid-template-columns: 1fr;">
+    <div class="content-body" style="max-width: 1000px; margin: 0 auto; width: 100%;">
+      
+      <!-- Feature Navigation Cards -->
+      <div class="app-grid">
+        
+        <!-- Card 1: Privacy Policy -->
+        <div class="app-feature-card">
+          <div class="feature-icon-wrapper">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700;">Privacy Policy</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            Full disclosure regarding data collection, device permissions, third-party libraries, user data deletion rights, and Google Play compliance.
+          </p>
+          <div style="margin-top: auto; padding-top: 1rem;">
+            <a href="privacy.html" class="btn btn-primary btn-sm" style="width: 100%;">
+              Read Privacy Policy &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Terms of Service -->
+        <div class="app-feature-card">
+          <div class="feature-icon-wrapper" style="background: linear-gradient(135deg, #3b82f6 0%, #2dd4bf 100%);">
+            <i class="fas fa-file-contract"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700;">Terms of Service</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            Standard terms, conditions, licensing boundaries, user conduct rules, and legal limitations of liability for the Saath app.
+          </p>
+          <div style="margin-top: auto; padding-top: 1rem;">
+            <a href="terms.html" class="btn btn-outline btn-sm" style="width: 100%;">
+              Read Terms &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Developer & Support -->
+        <div class="app-feature-card">
+          <div class="feature-icon-wrapper" style="background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%);">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700;">Support & Contact</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            Need help, want to submit feedback, or request account data erasure? Reach out directly to the developer team.
+          </p>
+          <div style="margin-top: auto; padding-top: 1rem;">
+            <a href="mailto:surajkumarsahani1997@gmail.com" class="btn btn-outline btn-sm" style="width: 100%;">
+              <i class="fas fa-envelope"></i> Email Developer
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- App Specifications Overview -->
+      <div class="content-card">
+        <div class="section-header">
+          <div class="section-icon"><i class="fas fa-circle-info"></i></div>
+          <h2 class="section-title">Application Specifications</h2>
+        </div>
+        <table class="data-table">
+          <tbody>
+            <tr>
+              <td><strong>Application Name</strong></td>
+              <td>Saath</td>
+            </tr>
+            <tr>
+              <td><strong>Application ID / Package</strong></td>
+              <td><code>com.martialcoder.saath</code></td>
+            </tr>
+            <tr>
+              <td><strong>Primary Developer</strong></td>
+              <td>Suraj Sahani (<a href="https://surajsahani.github.io/" target="_blank" style="color: #818cf8;">martialcoder</a>)</td>
+            </tr>
+            <tr>
+              <td><strong>Technology Stack</strong></td>
+              <td>Kotlin, Android Jetpack Compose, Material Design 3</td>
+            </tr>
+            <tr>
+              <td><strong>Google Play Developer Account</strong></td>
+              <td><a href="https://play.google.com/store/apps/dev?id=8460495759436830961" target="_blank" style="color: #818cf8;">martialcoder</a></td>
+            </tr>
+            <tr>
+              <td><strong>Contact Email</strong></td>
+              <td><code>surajkumarsahani1997@gmail.com</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="app-icon">S</div>
+            <div class="brand-text">Saath <span>App</span></div>
+          </div>
+          <p>Android application by Suraj Sahani (martialcoder).</p>
+        </div>
+        <div class="footer-socials">
+          <a href="https://play.google.com/store/apps/dev?id=8460495759436830961" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
+          <a href="https://github.com/surajsahani" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/surajsahani/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://surajsahani.github.io/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Portfolio"><i class="fas fa-globe"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Suraj Sahani (martialcoder). All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="mailto:surajkumarsahani1997@gmail.com">Developer Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
