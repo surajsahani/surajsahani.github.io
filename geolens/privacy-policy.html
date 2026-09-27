@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - GeoLens (AI Camera & Location)</title>
+    <meta name="description" content="Privacy Policy for GeoLens - AI Camera & Location Android Application by Suraj Sahani.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icon.png">
+    <style>
+        :root {
+            --bg-gradient: radial-gradient(circle at 50% 0%, #0d1e38 0%, #080f1e 45%, #030712 100%);
+            --card-bg: rgba(15, 23, 42, 0.85);
+            --card-border: rgba(56, 189, 248, 0.15);
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent-cyan: #38bdf8;
+            --accent-amber: #f59e0b;
+            --accent-glow: rgba(56, 189, 248, 0.22);
+            --badge-bg: rgba(56, 189, 248, 0.12);
+            --badge-border: rgba(56, 189, 248, 0.3);
+            --badge-text: #7dd3fc;
+            --section-highlight: rgba(30, 41, 59, 0.65);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-main);
+            line-height: 1.75;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 880px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 44px 24px 34px;
+            background: var(--card-bg);
+            border-radius: 24px;
+            border: 1px solid var(--card-border);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            margin-bottom: 32px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 50px -10px var(--accent-glow);
+        }
+
+        .app-icon {
+            width: 92px;
+            height: 92px;
+            border-radius: 22px;
+            margin-bottom: 16px;
+            box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.35);
+            border: 2px solid rgba(255, 255, 255, 0.15);
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.3rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #ffffff 0%, #bae6fd 50%, #38bdf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            font-size: 1.05rem;
+            color: var(--accent-amber);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+
+        .meta-badges {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--badge-bg);
+            border: 1px solid var(--badge-border);
+            color: var(--badge-text);
+            padding: 5px 14px;
+            border-radius: 100px;
+            font-size: 0.82rem;
+            font-weight: 500;
+        }
+
+        .content {
+            background: var(--card-bg);
+            border-radius: 24px;
+            border: 1px solid var(--card-border);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            padding: 44px 38px;
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: #f8fafc;
+            margin-top: 36px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+            padding-bottom: 8px;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 14px;
+            font-size: 0.98rem;
+        }
+
+        ul {
+            color: var(--text-muted);
+            padding-left: 24px;
+            margin-bottom: 18px;
+            font-size: 0.96rem;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li strong {
+            color: #e2e8f0;
+        }
+
+        .highlight-box {
+            background: var(--section-highlight);
+            border-left: 4px solid var(--accent-cyan);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 20px 0;
+            font-size: 0.94rem;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #e2e8f0;
+        }
+
+        .permission-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 14px;
+            padding: 16px 18px;
+            margin-bottom: 14px;
+        }
+
+        .permission-card h3 {
+            font-size: 1.05rem;
+            color: #38bdf8;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .permission-card p {
+            font-size: 0.92rem;
+            margin-bottom: 0;
+        }
+
+        a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #7dd3fc;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 36px;
+            padding-top: 20px;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 20px 12px;
+            }
+            .content {
+                padding: 28px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            header {
+                padding: 30px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="icon.png" alt="GeoLens App Icon" class="app-icon">
+            <h1>GeoLens</h1>
+            <div class="tagline">Capture. Locate. Remember.</div>
+            <p style="color: #cbd5e1; font-size: 1rem; max-width: 600px; margin: 0 auto;">
+                Privacy Policy for GeoLens AI Camera &amp; Location Android Application
+            </p>
+            <div class="meta-badges">
+                <span class="badge">🛡️ Strict Local Privacy</span>
+                <span class="badge">📍 Device-Only Geo Data</span>
+                <span class="badge">📅 Effective: September 2026</span>
+                <span class="badge">👤 MartialCoder</span>
+            </div>
+        </header>
+
+        <main class="content">
+            <h2>1. Introduction</h2>
+            <p>
+                Welcome to <strong>GeoLens</strong> ("we," "our," or "the app"), an Android mobile application designed and developed by <strong>Suraj Sahani</strong> (MartialCoder). 
+                GeoLens is an intelligent photography and travel journaling utility that embeds live geographic telemetry (GPS coordinates, altitude, compass bearing, and place names) into your photos, provides automated AI landmark recognition, and generates beautiful interactive journey maps.
+            </p>
+            <p>
+                We deeply respect your privacy. This Privacy Policy details how GeoLens handles device permissions and user data. <strong>GeoLens is built with an offline-first, private-by-default architecture: your photos, coordinates, travel itineraries, and location history are stored locally on your device and are never transmitted, sold, or shared with third-party tracking networks.</strong>
+            </p>
+
+            <div class="highlight-box">
+                <p><strong>Key Principle:</strong> Your captured memories, precise GPS coordinates, and travel stories remain strictly on your own hardware under your exclusive control.</p>
+            </div>
+
+            <h2>2. Device Permissions and How We Use Them</h2>
+            <p>To provide core functionality, GeoLens requests specific Android runtime permissions:</p>
+
+            <div class="permission-card">
+                <h3>📷 Camera Permission (<code>android.permission.CAMERA</code>)</h3>
+                <p>
+                    <strong>Purpose:</strong> Allows the app to render the real-time camera viewfinder, capture photographs, and apply HUD telemetry overlays.
+                    <br>
+                    <strong>Privacy Guarantee:</strong> Camera streams are processed locally in real time. We do not perform background camera captures or transmit visual feeds over the network.
+                </p>
+            </div>
+
+            <div class="permission-card">
+                <h3>📍 Location Permissions (<code>ACCESS_FINE_LOCATION</code> &amp; <code>ACCESS_COARSE_LOCATION</code>)</h3>
+                <p>
+                    <strong>Purpose:</strong> Used exclusively while you are actively taking photos or exploring the Photo Map to obtain current latitude, longitude, altitude, and reverse-geocode your landmark/city name.
+                    <br>
+                    <strong>Privacy Guarantee:</strong> Location data is strictly used for on-device geotagging, altitude HUD calculations, and local journey map drawing. We <strong>do not</strong> run continuous background location tracking and <strong>do not</strong> store your location on remote servers.
+                </p>
+            </div>
+
+            <div class="permission-card">
+                <h3>🧭 Device Sensor &amp; Compass (Orientation Sensors)</h3>
+                <p>
+                    <strong>Purpose:</strong> Used to compute the live magnetic azimuth bearing (compass heading) displayed on the technical telemetry HUD and stamped on Pro Postcards.
+                    <br>
+                    <strong>Privacy Guarantee:</strong> Sensor readings are read in memory only during active viewfinder sessions.
+                </p>
+            </div>
+
+            <div class="permission-card">
+                <h3>💾 Storage &amp; Media Access (<code>READ/WRITE_EXTERNAL_STORAGE</code> / MediaStore)</h3>
+                <p>
+                    <strong>Purpose:</strong> Required to save your geotagged photos, generated travel albums, and exported location postcards directly to your device's photo gallery.
+                    <br>
+                    <strong>Privacy Guarantee:</strong> GeoLens only reads and manages photos generated by or explicitly selected within the app.
+                </p>
+            </div>
+
+            <h2>3. AI Place Recognition &amp; On-Device Intelligence</h2>
+            <p>
+                GeoLens features on-device AI place detection that recognizes iconic landmarks, monuments, temples, and geographical features based on proximity mapping and on-device knowledge indices.
+            </p>
+            <ul>
+                <li>All landmark recognition calculations occur locally on your smartphone.</li>
+                <li>Your photos are not uploaded to external AI servers or machine learning training pipelines without your explicit command.</li>
+            </ul>
+
+            <h2>4. Third-Party Services</h2>
+            <p>
+                GeoLens integrates minimal standard Android platform services:
+            </p>
+            <ul>
+                <li><strong>Google Play Services:</strong> Used for fused location provider APIs and core system runtime stability. Governed by Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
+            </ul>
+
+            <h2>5. Data Retention and Deletion</h2>
+            <p>
+                Because GeoLens does not maintain user accounts or cloud databases:
+            </p>
+            <ul>
+                <li>All photos, geotag metadata, trips, and settings are saved locally in your app sandbox or device storage.</li>
+                <li>You can delete any photo or travel trip at any time directly through the app interface.</li>
+                <li>Uninstalling GeoLens or clearing app storage immediately deletes all stored cache and application databases.</li>
+            </ul>
+
+            <h2>6. Children's Privacy (COPPA &amp; GDPR)</h2>
+            <p>
+                GeoLens is safe for users of all ages. We do not knowingly collect, solicit, or store personal information from children under the age of 13. Since no personal data is collected or transmitted, GeoLens complies fully with the Children's Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR).
+            </p>
+
+            <h2>7. Security Safeguards</h2>
+            <p>
+                We employ standard Android security best practices, including encrypted internal storage sandboxing, strict runtime permission prompts, and zero third-party telemetry trackers.
+            </p>
+
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>
+                We may periodically update our Privacy Policy to reflect app enhancements or legal requirements. Any modifications will be posted to this page with an updated "Effective Date."
+            </p>
+
+            <h2>9. Contact &amp; Support</h2>
+            <p>
+                If you have any questions, suggestions, or concerns regarding this Privacy Policy or your data in GeoLens, please reach out directly:
+            </p>
+            <ul>
+                <li><strong>Developer:</strong> Suraj Sahani (MartialCoder)</li>
+                <li><strong>Email:</strong> <a href="mailto:surajsahani@navgurukul.org">surajsahani@navgurukul.org</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/surajsahani" target="_blank" rel="noopener">github.com/surajsahani</a></li>
+                <li><strong>Portfolio Website:</strong> <a href="https://surajsahani.github.io/" target="_blank" rel="noopener">surajsahani.github.io</a></li>
+            </ul>
+        </main>
+
+        <footer>
+            &copy; 2026 GeoLens. All rights reserved. Designed &amp; Developed with ❤️ in India by Suraj Sahani.
+        </footer>
+    </div>
+</body>
+</html>
