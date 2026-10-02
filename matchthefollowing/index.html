@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Match the Following</title>
+  <meta name="description" content="Privacy Policy for Match the Following Android application by Suraj Sahani (martialcoder). Learn how your data and privacy are protected.">
+  <meta name="theme-color" content="#6366F1">
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #6366F1;
+      --primary-dark: #4F46E5;
+      --primary-light: #EEF2FF;
+      --accent: #F59E0B;
+      --success: #10B981;
+      --success-light: #ECFDF5;
+      --bg: #FAFBFD;
+      --surface: #FFFFFF;
+      --text-main: #1E293B;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+      --shadow: 0 10px 30px -5px rgba(99, 102, 241, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+      --radius: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Ambient Background Blobs */
+    .bg-blob {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(80px);
+      z-index: -1;
+      opacity: 0.5;
+      pointer-events: none;
+    }
+    .blob-1 {
+      top: -100px;
+      left: -100px;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, #E0F2FE 0%, rgba(224, 242, 254, 0) 70%);
+    }
+    .blob-2 {
+      bottom: -100px;
+      right: -100px;
+      width: 450px;
+      height: 450px;
+      background: radial-gradient(circle, #FCE7F3 0%, rgba(252, 231, 243, 0) 70%);
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    /* Navigation Bar */
+    header.site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 24px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .brand img {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(99, 102, 241, 0.2);
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    /* Hero Header */
+    .hero-card {
+      background: linear-gradient(135deg, #6366F1 0%, #4F46E5 100%);
+      color: white;
+      border-radius: var(--radius);
+      padding: 44px 36px;
+      text-align: center;
+      margin-bottom: 36px;
+      box-shadow: 0 20px 40px -10px rgba(99, 102, 241, 0.35);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-card::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .app-icon-wrap {
+      display: inline-block;
+      margin-bottom: 16px;
+      position: relative;
+    }
+    .app-icon-wrap img {
+      width: 90px;
+      height: 90px;
+      border-radius: 22px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      border: 3px solid rgba(255, 255, 255, 0.4);
+    }
+    .hero-card h1 {
+      font-size: 2.3rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+    .hero-card p.subtitle {
+      font-size: 1.1rem;
+      opacity: 0.92;
+      max-width: 580px;
+      margin: 0 auto 18px;
+    }
+    .meta-badges {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .meta-badge {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8px);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Highlights Banner */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+    .summary-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .summary-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .icon-green { background: #ECFDF5; color: #10B981; }
+    .icon-blue { background: #EFF6FF; color: #3B82F6; }
+    .icon-purple { background: #F5F3FF; color: #8B5CF6; }
+    .summary-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+    .summary-card p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Policy Content Sections */
+    .policy-content {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: var(--shadow);
+    }
+    .section {
+      margin-bottom: 36px;
+    }
+    .section:last-child {
+      margin-bottom: 0;
+    }
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .section-num {
+      background: var(--primary-light);
+      color: var(--primary);
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.95rem;
+    }
+    .section h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      letter-spacing: -0.3px;
+    }
+    .section p {
+      color: #334155;
+      margin-bottom: 14px;
+      font-size: 0.98rem;
+    }
+    .section ul {
+      margin-left: 20px;
+      margin-bottom: 14px;
+      color: #334155;
+    }
+    .section li {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+    .highlight-box {
+      background: #F8FAFC;
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 0 12px 12px 0;
+      margin: 18px 0;
+      font-size: 0.92rem;
+      color: #334155;
+    }
+    .highlight-box.success {
+      border-left-color: var(--success);
+      background: var(--success-light);
+    }
+
+    /* Contact Card */
+    .contact-card {
+      background: linear-gradient(135deg, #F8FAFC 0%, #EEF2FF 100%);
+      border: 1px solid #C7D2FE;
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .contact-details h4 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .contact-details p {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      margin: 0;
+    }
+    .btn-contact {
+      background: var(--primary);
+      color: white;
+      padding: 12px 22px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .btn-contact:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    /* Footer */
+    footer.site-footer {
+      text-align: center;
+      margin-top: 48px;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+    footer.site-footer a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 640px) {
+      .hero-card {
+        padding: 32px 20px;
+      }
+      .hero-card h1 {
+        font-size: 1.8rem;
+      }
+      .policy-content {
+        padding: 24px 18px;
+      }
+      .summary-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+
+  <div class="container">
+    
+    <!-- Top Nav -->
+    <header class="site-header">
+      <a href="https://surajsahani.github.io/" class="brand">
+        <img src="icon.png" alt="Match the Following Logo">
+        <span>Match the Following</span>
+      </a>
+      <div class="nav-links">
+        <a href="https://surajsahani.github.io/"><i class="fas fa-arrow-left"></i> Developer Portfolio</a>
+      </div>
+    </header>
+
+    <!-- Hero Card -->
+    <div class="hero-card">
+      <div class="app-icon-wrap">
+        <img src="icon.png" alt="App Icon">
+      </div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Match the Following – Interactive Educational Matching Game</p>
+      <div class="meta-badges">
+        <div class="meta-badge"><i class="fas fa-calendar-alt"></i> Effective Date: October 2, 2026</div>
+        <div class="meta-badge"><i class="fas fa-user-shield"></i> 100% Privacy Friendly</div>
+        <div class="meta-badge"><i class="fas fa-wifi"></i> Offline-First</div>
+      </div>
+    </div>
+
+    <!-- Quick Highlights -->
+    <div class="summary-grid">
+      <div class="summary-card">
+        <div class="summary-icon icon-green"><i class="fas fa-shield-halved"></i></div>
+        <div>
+          <h3>Zero Data Collection</h3>
+          <p>We do not collect, store, or sell any personal or sensitive user information.</p>
+        </div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-icon icon-blue"><i class="fas fa-child-reaching"></i></div>
+        <div>
+          <h3>Family & Kid Safe</h3>
+          <p>Fully compliant with COPPA and GDPR-K guidelines. Safe for learners of all ages.</p>
+        </div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-icon icon-purple"><i class="fas fa-mobile-screen"></i></div>
+        <div>
+          <h3>Local On-Device Only</h3>
+          <p>Game levels and scores remain exclusively on your local device.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Policy Content -->
+    <div class="policy-content">
+
+      <!-- Section 1 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">1</div>
+          <h2>Introduction</h2>
+        </div>
+        <p>
+          Welcome to <strong>Match the Following</strong> ("we", "our", or "the App"), developed and published by <strong>Suraj Sahani</strong> (<strong>martialcoder</strong>).
+        </p>
+        <p>
+          We are committed to safeguarding the privacy and security of everyone who plays our game. This Privacy Policy outlines our practices regarding data privacy, explaining that the App operates completely offline without collecting or tracking your personal information.
+        </p>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">2</div>
+          <h2>Information Collection & Use</h2>
+        </div>
+        <p>
+          <strong>Match the Following does NOT collect, harvest, or transmit any Personally Identifiable Information (PII).</strong>
+        </p>
+        <ul>
+          <li><strong>No Account Required:</strong> You do not need to create an account, register, or provide an email, name, or phone number to play.</li>
+          <li><strong>No Location Tracking:</strong> The App never accesses GPS or device location.</li>
+          <li><strong>No Biometric or Media Access:</strong> The App does not access your photos, files, contacts, camera, or microphone.</li>
+          <li><strong>No Advertising Trackers:</strong> The App does not use third-party behavioral advertising trackers or analytics SDKs that profile users.</li>
+        </ul>
+        <div class="highlight-box success">
+          <i class="fas fa-check-circle" style="color: #10B981; margin-right: 6px;"></i>
+          <strong>Privacy By Design:</strong> All game mechanics, line drawing calculations, and sound effects are processed locally and offline on your device processor.
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">3</div>
+          <h2>Local Device Storage</h2>
+        </div>
+        <p>
+          The App may save basic non-identifiable gameplay progress (such as completed levels, star ratings, and sound mute preferences) locally using standard Android private internal storage.
+        </p>
+        <p>
+          This data remains strictly stored inside the application sandbox on your physical device. It is never uploaded to any cloud database or third-party server.
+        </p>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">4</div>
+          <h2>Children's Privacy (COPPA & GDPR-K)</h2>
+        </div>
+        <p>
+          Our application is designed as an educational, family-friendly puzzle game suitable for audiences of all ages, including children under the age of 13.
+        </p>
+        <p>
+          Because we do not collect any personal information whatsoever:
+        </p>
+        <ul>
+          <li>We do not solicit or gather data from children under 13 (or under 16 in the European Union).</li>
+          <li>Parents and guardians can be confident that their children can play safely without privacy risks or data harvesting.</li>
+        </ul>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">5</div>
+          <h2>Device Permissions</h2>
+        </div>
+        <p>
+          Match the Following requests only minimal, non-sensitive standard system permissions required for core interactive feedback:
+        </p>
+        <ul>
+          <li><code>android.permission.VIBRATE</code> – Used solely to provide subtle tactile haptic vibration when a match is made.</li>
+        </ul>
+        <p>
+          No dangerous or privacy-sensitive runtime permissions are requested.
+        </p>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">6</div>
+          <h2>Third-Party Services</h2>
+        </div>
+        <p>
+          The App is distributed via official app marketplaces (such as the Google Play Store). These platform providers may collect anonymous, aggregated diagnostic crash data or distribution telemetry according to their own privacy policies:
+        </p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Play Services Privacy Policy</a></li>
+        </ul>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">7</div>
+          <h2>Data Deletion & User Rights</h2>
+        </div>
+        <p>
+          Because all game state is stored locally on your device, you have complete control over your data:
+        </p>
+        <ul>
+          <li>Clearing the App's data or cache via Android Settings permanently wipes all local game progress.</li>
+          <li>Uninstalling the App automatically and completely deletes all associated local data from your device.</li>
+        </ul>
+      </section>
+
+      <!-- Section 8 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">8</div>
+          <h2>Changes to This Privacy Policy</h2>
+        </div>
+        <p>
+          We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated "Effective Date". We encourage users to periodically review this page.
+        </p>
+      </section>
+
+      <!-- Section 9 -->
+      <section class="section">
+        <div class="section-header">
+          <div class="section-num">9</div>
+          <h2>Contact Us</h2>
+        </div>
+        <p>
+          If you have any questions, suggestions, or concerns regarding this Privacy Policy or the App, please feel free to reach out directly to the developer:
+        </p>
+
+        <div class="contact-card">
+          <div class="contact-details">
+            <h4>Suraj Sahani (martialcoder)</h4>
+            <p><i class="fas fa-envelope" style="margin-right: 6px; color: var(--primary);"></i> surajkumarsahani1997@gmail.com</p>
+            <p><i class="fas fa-globe" style="margin-right: 6px; color: var(--primary);"></i> https://surajsahani.github.io/</p>
+          </div>
+          <a href="mailto:surajkumarsahani1997@gmail.com" class="btn-contact">
+            <i class="fas fa-paper-plane"></i> Contact Developer
+          </a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Suraj Sahani (martialcoder). All rights reserved.</p>
+      <p style="margin-top: 6px;">
+        <a href="https://surajsahani.github.io/">Portfolio</a> &bull;
+        <a href="https://github.com/surajsahani">GitHub</a> &bull;
+        <a href="https://play.google.com/store/apps/dev?id=8460495759436830961">Google Play</a>
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
