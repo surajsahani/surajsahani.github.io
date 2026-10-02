@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Doc Scanner: Scan & Share</title>
+    <meta name="description" content="Privacy Policy for Doc Scanner: Scan & Share. Fast, secure on-device document scanning and PDF/Image sharing.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0A0E17;
+            --bg-surface: #111827;
+            --card-surface: #172033;
+            --card-border: #1E293B;
+            --brand-green: #00A86B;
+            --brand-green-light: #25D366;
+            --brand-emerald: #10B981;
+            --brand-blue: #0284C7;
+            --brand-red: #EF4444;
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            padding: 0;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        /* Background Glow */
+        .ambient-glow {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 850px;
+            height: 480px;
+            background: radial-gradient(circle, rgba(0, 168, 107, 0.18) 0%, rgba(37, 211, 102, 0.06) 50%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 48px 24px 80px 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header Card */
+        .header-card {
+            background: linear-gradient(135deg, rgba(23, 32, 51, 0.95), rgba(17, 24, 39, 0.9));
+            border: 1px solid rgba(0, 168, 107, 0.3);
+            border-radius: 24px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(12px);
+        }
+
+        .app-icon {
+            width: 88px;
+            height: 88px;
+            background: linear-gradient(135deg, #00875A, #25D366);
+            border-radius: 22px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 25px rgba(0, 168, 107, 0.4);
+        }
+
+        .app-icon svg {
+            width: 48px;
+            height: 48px;
+            fill: white;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 34px;
+            font-weight: 800;
+            color: #FFFFFF;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--brand-green-light);
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .meta-info {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 12px;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .badge.highlight {
+            background: rgba(0, 168, 107, 0.15);
+            border-color: rgba(0, 168, 107, 0.4);
+            color: #4ADE80;
+        }
+
+        /* Content Sections */
+        .section {
+            background: var(--card-surface);
+            border: 1px solid var(--card-border);
+            border-radius: 18px;
+            padding: 30px 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+            transition: border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .section:hover {
+            border-color: rgba(0, 168, 107, 0.4);
+            transform: translateY(-2px);
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 10px;
+            background: rgba(0, 168, 107, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--brand-green-light);
+            flex-shrink: 0;
+        }
+
+        p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 14px 0;
+        }
+
+        li {
+            position: relative;
+            padding-left: 26px;
+            margin-bottom: 10px;
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+
+        li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--brand-green-light);
+            font-weight: bold;
+        }
+
+        .highlight-box {
+            background: rgba(0, 168, 107, 0.08);
+            border: 1px solid rgba(0, 168, 107, 0.25);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-top: 14px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .highlight-box p {
+            color: #D1FAE5;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .contact-card {
+            background: linear-gradient(135deg, rgba(0, 168, 107, 0.12), rgba(2, 132, 199, 0.1));
+            border: 1px solid rgba(0, 168, 107, 0.3);
+        }
+
+        .contact-link {
+            color: #4ADE80;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .contact-link:hover {
+            color: #86EFAC;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        footer a {
+            color: var(--brand-green-light);
+            text-decoration: none;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 24px 16px 60px 16px;
+            }
+            .header-card {
+                padding: 28px 20px;
+            }
+            .section {
+                padding: 22px 20px;
+            }
+            h1 {
+                font-size: 26px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ambient-glow"></div>
+
+    <div class="container">
+        <!-- Header Card -->
+        <div class="header-card">
+            <div class="app-icon">
+                <svg viewBox="0 0 24 24">
+                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2zm0-4H7V7h10v2zm-4 8H7v-2h6v2z"/>
+                </svg>
+            </div>
+            <h1>Doc Scanner: Scan & Share</h1>
+            <div class="subtitle">Official Privacy Policy</div>
+            <div class="meta-info">
+                <span class="badge highlight">🔒 100% On-Device & Private</span>
+                <span class="badge">📄 PDF & Image Export</span>
+                <span class="badge">⚡ Zero Cloud Uploads</span>
+                <span class="badge">📅 Last Updated: October 2, 2026</span>
+            </div>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="section">
+            <h2>
+                <span class="section-icon">📌</span>
+                1. Introduction & Overview
+            </h2>
+            <p>
+                Welcome to <strong>Doc Scanner: Scan & Share</strong> ("the App"), developed by <strong>Suraj Sahani</strong>. 
+                We are committed to protecting your privacy and ensuring you have complete control over your scanned documents.
+            </p>
+            <p>
+                Doc Scanner is engineered with a <strong>privacy-first, offline-first architecture</strong>. All document scanning, edge enhancement, cropping, filters, and PDF/JPEG conversions are performed locally directly on your Android device. <strong>We do not collect, store, sell, or transmit your scanned documents or personal files to any remote server.</strong>
+            </p>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section">
+            <h2>
+                <span class="section-icon">🔐</span>
+                2. Permissions Required & Justification
+            </h2>
+            <p>To provide fast and seamless scanning functionality, the App requests access to specific device features only when needed:</p>
+            <ul>
+                <li><strong>Camera Permission (<code>android.permission.CAMERA</code>):</strong> Used exclusively within the scanner viewfinder to capture photos of physical documents, receipts, invoices, and notes in real time. Camera frames are processed locally in memory and never broadcasted.</li>
+                <li><strong>Photos & Media / Gallery (<code>READ_MEDIA_IMAGES</code>):</strong> Used only when you tap "From Gallery" to import existing photos for cropping, filter application, and PDF generation.</li>
+                <li><strong>Internet / Share (<code>android.permission.INTERNET</code>):</strong> Used only to facilitate external sharing via standard Android system intents when you explicitly choose to share files to WhatsApp, Gmail, Google Drive, or other apps installed on your device.</li>
+            </ul>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="section">
+            <h2>
+                <span class="section-icon">🛡️</span>
+                3. On-Device Processing & Data Storage
+            </h2>
+            <p>
+                All image processing operations (including B&W thresholding, color enhancement, contrast adjustment, 90° rotation, and A4 PDF rendering) occur entirely within your device's local memory using native Android rendering engines.
+            </p>
+            <div class="highlight-box">
+                <p>
+                    <strong>Key Privacy Guarantee:</strong> Your documents never leave your phone unless you manually and intentionally tap the share button to send them to a contact or cloud app of your choice.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 4 -->
+        <div class="section">
+            <h2>
+                <span class="section-icon">💬</span>
+                4. Document Sharing & Third-Party Apps
+            </h2>
+            <p>
+                When you share a document as a <strong>PDF Document</strong> or <strong>JPEG Image</strong>:
+            </p>
+            <ul>
+                <li>The file is temporarily placed in the secure, isolated app cache using Android's standard <code>FileProvider</code>.</li>
+                <li>The file is passed directly to the recipient app (e.g., <strong>WhatsApp</strong>, <strong>Gmail</strong>, <strong>Google Drive</strong>) via secure Android system intents.</li>
+                <li>Once shared, handling of the document is governed by the privacy policy of the respective recipient platform.</li>
+            </ul>
+        </div>
+
+        <!-- Section 5 -->
+        <div class="section">
+            <h2>
+                <span class="section-icon">👶</span>
+                5. Children's Privacy (COPPA Compliance)
+            </h2>
+            <p>
+                Doc Scanner: Scan & Share does not address anyone under the age of 13. We do not knowingly collect personal identifiable information from children. Since the App does not require account creation, registration, or data transmission, it is safe for users of all ages.
+            </p>
+        </div>
+
+        <!-- Section 6 -->
+        <div class="section">
+            <h2>
+                <span class="section-icon">⚖️</span>
+                6. GDPR & CCPA Compliance
+            </h2>
+            <p>
+                Because we do not store, track, or process personal data on external servers:
+            </p>
+            <ul>
+                <li><strong>No Tracking / No Profiling:</strong> We do not use third-party analytics trackers, advertising IDs, or behavioral profiling tools.</li>
+                <li><strong>Data Ownership:</strong> You have 100% ownership and immediate control to delete any scanned documents from your device at any time.</li>
+            </ul>
+        </div>
+
+        <!-- Section 7 -->
+        <div class="section">
+            <h2>
+                <span class="section-icon">🔄</span>
+                7. Changes to This Privacy Policy
+            </h2>
+            <p>
+                We may periodically update our Privacy Policy to reflect app enhancements or regulatory changes. Any updates will be posted on this URL with a revised "Last Updated" date.
+            </p>
+        </div>
+
+        <!-- Section 8 -->
+        <div class="section contact-card">
+            <h2>
+                <span class="section-icon">📬</span>
+                8. Contact Developer
+            </h2>
+            <p>
+                If you have any questions, suggestions, or feedback regarding this Privacy Policy or Doc Scanner, please feel free to reach out directly:
+            </p>
+            <ul>
+                <li><strong>Developer:</strong> Suraj Sahani</li>
+                <li><strong>Email:</strong> <a href="mailto:surajsahani@navgurukul.org" class="contact-link">surajsahani@navgurukul.org</a></li>
+                <li><strong>Website:</strong> <a href="https://surajsahani.github.io/" class="contact-link" target="_blank">https://surajsahani.github.io/</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/surajsahani" class="contact-link" target="_blank">https://github.com/surajsahani</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Suraj Sahani. All rights reserved.</p>
+            <p style="margin-top: 6px;">
+                <a href="https://surajsahani.github.io/">Back to Portfolio</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
